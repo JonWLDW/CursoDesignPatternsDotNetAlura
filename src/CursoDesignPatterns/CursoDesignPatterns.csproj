@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Investimentos\Conta.cs" />
+    <Compile Include="Investimentos\IInvestimento.cs" />
+    <Compile Include="Investimentos\InvestimentoArrojado.cs" />
+    <Compile Include="Investimentos\InvestimentoConservador.cs" />
+    <Compile Include="Investimentos\InvestimentoModerado.cs" />
+    <Compile Include="Investimentos\RealizadorDeInvestimentos.cs" />
     <Compile Include="Orcamento\CalculadorDeImpostos.cs" />
     <Compile Include="Orcamento\Impostos\ICCC.cs" />
     <Compile Include="Orcamento\Impostos\ICMS.cs" />
