@@ -6,7 +6,7 @@
 
 		public Orcamento(double valor)
 		{
-			this.Valor = Valor;
+			Valor = valor;
 		}
 	}
 }

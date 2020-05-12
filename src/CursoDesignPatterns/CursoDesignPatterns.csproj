@@ -43,11 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CalculadorDeImpostos.cs" />
-    <Compile Include="Impostos\ICMS.cs" />
-    <Compile Include="Impostos\Imposto.cs" />
-    <Compile Include="Impostos\ISS.cs" />
-    <Compile Include="Orcamento.cs" />
+    <Compile Include="Orcamento\CalculadorDeImpostos.cs" />
+    <Compile Include="Orcamento\Impostos\ICCC.cs" />
+    <Compile Include="Orcamento\Impostos\ICMS.cs" />
+    <Compile Include="Orcamento\Impostos\Imposto.cs" />
+    <Compile Include="Orcamento\Impostos\ISS.cs" />
+    <Compile Include="Orcamento\Orcamento.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
