@@ -51,6 +51,8 @@
     <Compile Include="Investimentos\RealizadorDeInvestimentos.cs" />
     <Compile Include="Orcamentos\CalculadorDeImpostos.cs" />
     <Compile Include="Orcamentos\Descontos\CalculadorDeDescontos.cs" />
+    <Compile Include="Orcamentos\Descontos\DescontoPorCincoItens.cs" />
+    <Compile Include="Orcamentos\Descontos\DescontoPorMaisDeQuinhentosReais.cs" />
     <Compile Include="Orcamentos\Impostos\ICCC.cs" />
     <Compile Include="Orcamentos\Impostos\ICMS.cs" />
     <Compile Include="Orcamentos\Impostos\Imposto.cs" />

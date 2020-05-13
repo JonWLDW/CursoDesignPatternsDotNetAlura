@@ -4,13 +4,11 @@
 	{
 		public double Calcular(Orcamento orcamento)
 		{
-			if (orcamento.Itens.Count > 5)
-				return orcamento.Valor * 0.1;
+			var desconto = new DescontoPorCincoItens().Calcular(orcamento);
+			if (desconto == 0.0)
+				desconto = new DescontoPorMaisDeQuinhentosReais().Calcular(orcamento);
 
-			else if (orcamento.Valor > 500.0)
-				return orcamento.Valor * 0.07;
-
-			return 0.0;
+			return desconto;
 		}
 	}
 }
