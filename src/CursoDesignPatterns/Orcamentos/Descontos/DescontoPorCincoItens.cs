@@ -2,6 +2,8 @@
 {
 	public class DescontoPorCincoItens : IDesconto
 	{
+		public IDesconto ProximoDesconto { get; set; }
+
 		public double Calcular(Orcamento orcamento)
 		{
 			if (orcamento.Itens.Count > 5)

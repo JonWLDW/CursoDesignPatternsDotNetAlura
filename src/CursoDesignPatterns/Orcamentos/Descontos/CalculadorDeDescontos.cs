@@ -4,11 +4,11 @@
 	{
 		public double Calcular(Orcamento orcamento)
 		{
-			var desconto = new DescontoPorCincoItens().Calcular(orcamento);
-			if (desconto == 0.0)
-				desconto = new DescontoPorMaisDeQuinhentosReais().Calcular(orcamento);
+			var descontoCincoItens = new DescontoPorCincoItens();
+			var descontoMaisQueQuinheiDeQuinhentosReais = new DescontoPorMaisDeQuinhentosReais();
+			descontoCincoItens.ProximoDesconto = descontoMaisQueQuinheiDeQuinhentosReais;
 
-			return desconto;
+			return descontoCincoItens.Calcular(orcamento);
 		}
 	}
 }
