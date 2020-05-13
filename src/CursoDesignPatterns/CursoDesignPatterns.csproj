@@ -53,6 +53,7 @@
     <Compile Include="Orcamentos\Descontos\CalculadorDeDescontos.cs" />
     <Compile Include="Orcamentos\Descontos\DescontoPorCincoItens.cs" />
     <Compile Include="Orcamentos\Descontos\DescontoPorMaisDeQuinhentosReais.cs" />
+    <Compile Include="Orcamentos\Descontos\IDesconto.cs" />
     <Compile Include="Orcamentos\Impostos\ICCC.cs" />
     <Compile Include="Orcamentos\Impostos\ICMS.cs" />
     <Compile Include="Orcamentos\Impostos\Imposto.cs" />

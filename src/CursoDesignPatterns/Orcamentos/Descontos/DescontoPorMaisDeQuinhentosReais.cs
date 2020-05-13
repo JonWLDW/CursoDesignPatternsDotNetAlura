@@ -1,6 +1,6 @@
 ﻿namespace CursoDesignPatterns.Orcamentos.Descontos
 {
-	public class DescontoPorMaisDeQuinhentosReais
+	public class DescontoPorMaisDeQuinhentosReais : IDesconto
 	{
 		public double Calcular(Orcamento orcamento)
 		{
