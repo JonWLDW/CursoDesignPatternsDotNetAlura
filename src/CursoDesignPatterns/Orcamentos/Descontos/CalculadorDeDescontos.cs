@@ -5,8 +5,8 @@
 		public double Calcular(Orcamento orcamento)
 		{
 			var descontoCincoItens = new DescontoPorCincoItens();
-			var descontoMaisQueQuinheiDeQuinhentosReais = new DescontoPorMaisDeQuinhentosReais();
-			descontoCincoItens.ProximoDesconto = descontoMaisQueQuinheiDeQuinhentosReais;
+			var descontoMaisDeQuinhentosReais = new DescontoPorMaisDeQuinhentosReais();
+			descontoCincoItens.ProximoDesconto = descontoMaisDeQuinhentosReais;
 
 			return descontoCincoItens.Calcular(orcamento);
 		}
