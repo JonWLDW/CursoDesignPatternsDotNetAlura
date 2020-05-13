@@ -7,6 +7,7 @@
 			var descontoCincoItens = new DescontoPorCincoItens();
 			var descontoMaisDeQuinhentosReais = new DescontoPorMaisDeQuinhentosReais();
 			descontoCincoItens.ProximoDesconto = descontoMaisDeQuinhentosReais;
+			descontoMaisDeQuinhentosReais.ProximoDesconto = new SemDesconto();
 
 			return descontoCincoItens.Calcular(orcamento);
 		}
