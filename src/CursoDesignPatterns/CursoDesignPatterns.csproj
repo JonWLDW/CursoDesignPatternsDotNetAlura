@@ -49,12 +49,14 @@
     <Compile Include="Investimentos\InvestimentoConservador.cs" />
     <Compile Include="Investimentos\InvestimentoModerado.cs" />
     <Compile Include="Investimentos\RealizadorDeInvestimentos.cs" />
-    <Compile Include="Orcamento\CalculadorDeImpostos.cs" />
-    <Compile Include="Orcamento\Impostos\ICCC.cs" />
-    <Compile Include="Orcamento\Impostos\ICMS.cs" />
-    <Compile Include="Orcamento\Impostos\Imposto.cs" />
-    <Compile Include="Orcamento\Impostos\ISS.cs" />
-    <Compile Include="Orcamento\Orcamento.cs" />
+    <Compile Include="Orcamentos\CalculadorDeImpostos.cs" />
+    <Compile Include="Orcamentos\Descontos\CalculadorDeDescontos.cs" />
+    <Compile Include="Orcamentos\Impostos\ICCC.cs" />
+    <Compile Include="Orcamentos\Impostos\ICMS.cs" />
+    <Compile Include="Orcamentos\Impostos\Imposto.cs" />
+    <Compile Include="Orcamentos\Impostos\ISS.cs" />
+    <Compile Include="Orcamentos\Item.cs" />
+    <Compile Include="Orcamentos\Orcamento.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

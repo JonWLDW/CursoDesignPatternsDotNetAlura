@@ -1,6 +1,6 @@
-﻿namespace CursoDesignPatterns
+﻿namespace CursoDesignPatterns.Orcamentos.Impostos
 {
-	public class ICMS : Impostos.Imposto
+	public class ICMS : Imposto
 	{
 		public double Calcular(Orcamento orcamento)
 		{

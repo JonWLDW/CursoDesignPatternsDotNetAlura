@@ -1,4 +1,4 @@
-﻿namespace CursoDesignPatterns.Impostos
+﻿namespace CursoDesignPatterns.Orcamentos.Impostos
 {
 	public interface Imposto
 	{

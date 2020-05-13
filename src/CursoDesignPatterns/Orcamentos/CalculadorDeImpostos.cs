@@ -1,7 +1,7 @@
-﻿using CursoDesignPatterns.Impostos;
-using System;
+﻿using System;
+using CursoDesignPatterns.Orcamentos.Impostos;
 
-namespace CursoDesignPatterns
+namespace CursoDesignPatterns.Orcamentos
 {
 	public class CalculadorDeImpostos
 	{
