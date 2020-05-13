@@ -35,7 +35,7 @@ namespace CursoDesignPatterns
 
 			var orcamento = new Orcamento(valor: 500.00);
 			orcamento.AdicionarItem(new Item("Caneta", valor: 250.00));
-			orcamento.AdicionarItem(new Item("Lápis", valor: 250.00));
+			orcamento.AdicionarItem(new Item("Cesta Básica", valor: 250.00));
 
 			var calculadorDeDescontos = new CalculadorDeDescontos();
 			var valorDoDesconto = calculadorDeDescontos.Calcular(orcamento);
